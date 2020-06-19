@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AmmiServices.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -20,8 +21,11 @@ namespace AmmiServices.Controllers
         [HttpGet]
         public void Get()
         {
-            var rng = new Random();
-            var yo = "gdfgdf";
+            ANN animeNews = new ANN();
+            animeNews.Run();
+
+            Apihelper.InitializeClient();
+            var anime = AnimeProcessor.LoadAnime(6);
         }
     }
 }

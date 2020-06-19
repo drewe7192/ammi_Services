@@ -1,0 +1,6 @@
+D:\Code\projects\ammi_Services\obj\Debug\netcoreapp3.0\AmmiServices.csprojAssemblyReference.cache
+D:\Code\projects\ammi_Services\obj\Debug\netcoreapp3.0\staticwebassets\AmmiServices.StaticWebAssets.Manifest.cache
+D:\Code\projects\ammi_Services\obj\Debug\netcoreapp3.0\staticwebassets\AmmiServices.StaticWebAssets.xml
+D:\Code\projects\ammi_Services\obj\Debug\netcoreapp3.0\AmmiServices.MvcApplicationPartsAssemblyInfo.cache
+D:\Code\projects\ammi_Services\obj\Debug\netcoreapp3.0\AmmiServices.AssemblyInfoInputs.cache
+D:\Code\projects\ammi_Services\obj\Debug\netcoreapp3.0\AmmiServices.AssemblyInfo.cs
