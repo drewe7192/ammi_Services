@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\projects\\ammi_Services\\AmmiServices\\AmmiServices.csproj",
+      "projectUniqueName": "D:\\Code\\projects\\ammi_Services\\AmmiServices.csproj",
       "projectName": "AmmiServices",
-      "projectPath": "D:\\Code\\projects\\ammi_Services\\AmmiServices\\AmmiServices.csproj",
+      "projectPath": "D:\\Code\\projects\\ammi_Services\\AmmiServices.csproj",
       "packagesPath": "C:\\Users\\InnovateDrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\projects\\ammi_Services\\AmmiServices\\obj\\",
+      "outputPath": "D:\\Code\\projects\\ammi_Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
