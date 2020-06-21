@@ -8,25 +8,25 @@ namespace AmmiServices.Services
 {
     public class AnimeProcessor
     {
-        public static async Task/*<Anime>*/ LoadAnime( int animeNumber = 0)
+        public async Task<Anime> LoadAnime( int animeNumber = 0)
         {
             string url = "";
 
             if (animeNumber > 0)
             {
-                url = "";
+                url = "https://api.jikan.moe/v3/anime/1/episodes/2";
             }
             else
             {
-                url = "";
+                url = "https://api.jikan.moe/v3/anime/1/episodes/2";
             }
 
             using (HttpResponseMessage response = await Apihelper.ApiClient.GetAsync(url))
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    //Anime anime = await response.Content.ReadAsStringAsync();
-                    //return anime;
+                    Anime anime = await response.Content.ReadAsAsync<Anime>();
+                    return anime; 
                 }
                 else
                 {

@@ -17,15 +17,16 @@ namespace AmmiServices.Controllers
         {
             _logger = logger;
         }
-
+        
         [HttpGet]
         public void Get()
         {
-            ANN animeNews = new ANN();
-            animeNews.Run();
+            //ANN animeNews = new ANN();
+            //animeNews.Run();
 
             Apihelper.InitializeClient();
-            var anime = AnimeProcessor.LoadAnime(6);
+            AnimeProcessor anime = new AnimeProcessor();
+            anime.LoadAnime().Wait();
         }
     }
 }

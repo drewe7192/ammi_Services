@@ -4,8 +4,9 @@ namespace AmmiServices
 {
     public class Anime 
     {
-        public string test1 { get; set; }
-     
-        public string test2 { get; set; }
+        public bool request_cached { get; set; }
+
+        public int request_cache_expiry { get; set; }
+
     }
 }
