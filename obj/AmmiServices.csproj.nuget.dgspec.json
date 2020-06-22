@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\projects\\ammi_Services\\AmmiServices.csproj": {}
+    "D:\\Code\\projects\\Ammi\\ammi_Services\\AmmiServices.csproj": {}
   },
   "projects": {
-    "D:\\Code\\projects\\ammi_Services\\AmmiServices.csproj": {
+    "D:\\Code\\projects\\Ammi\\ammi_Services\\AmmiServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\projects\\ammi_Services\\AmmiServices.csproj",
+        "projectUniqueName": "D:\\Code\\projects\\Ammi\\ammi_Services\\AmmiServices.csproj",
         "projectName": "AmmiServices",
-        "projectPath": "D:\\Code\\projects\\ammi_Services\\AmmiServices.csproj",
+        "projectPath": "D:\\Code\\projects\\Ammi\\ammi_Services\\AmmiServices.csproj",
         "packagesPath": "C:\\Users\\InnovateDrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\projects\\ammi_Services\\obj\\",
+        "outputPath": "D:\\Code\\projects\\Ammi\\ammi_Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -45,6 +45,32 @@
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
