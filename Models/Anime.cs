@@ -8,5 +8,9 @@ namespace AmmiServices
 
         public int request_cache_expiry { get; set; }
 
+        public string fName { get; set; }
+
+        public string lName { get; set; }
+
     }
 }
